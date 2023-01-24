@@ -1,0 +1,13 @@
+name: 'Google Chat github action'
+description: 'Send Google chat message'
+author: 'dishank-infurnia'
+inputs:
+  message:
+    description: 'Message to send'
+    required: true
+  gchat_webhook_url: 
+    description: 'Webhook url of the google chat'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
