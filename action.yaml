@@ -8,6 +8,9 @@ inputs:
   gchat_webhook_url: 
     description: 'Webhook url of the google chat'
     required: true
+  thread_key:
+    description: 'Google chat thread key'
+    default: 'None'
 runs:
   using: 'node16'
   main: 'dist/index.js'

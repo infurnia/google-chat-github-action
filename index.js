@@ -15,8 +15,11 @@ const main = async () => {
     try {
         const message = core.getInput('message');
         const webhookUrl = core.getInput('gchat_webhook_url');
+        let threadKey = core.getInput('thread_key');
 
-        let threadKey = randomString(10);
+        if(threadKey == 'None') {
+            threadKey = randomString(10);
+        }
         console.log("[*] threadKey: ", threadKey);
 
         let messageFragments = message.split("\n");
