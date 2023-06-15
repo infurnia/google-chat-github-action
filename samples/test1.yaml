@@ -1,0 +1,12 @@
+*Sprint*:    <https://infurniacoretech.atlassian.net/jira/software/c/projects/INFURNIA/boards/21?sprint=86|Sprint 23.10 22May-3Jun>
+*Release*:    <https://infurniacoretech.atlassian.net/projects/ST/versions/10097|Release 23.11>
+
+*<https://github.com/infurnia/auth_frontend/compare/stage_v0.1.7...stage_v0.1.8-cicd.0|0.1.8-cicd.0> (2023-02-09)*
+
+*🐞 Bug Fixes*
+
+•   Sentry issues
+
+<https://infurniacoretech.atlassian.net/browse/ST-1007|↗️ST-1007> Ask for sprint during jira release and show sprint and jira release information (<https://github.com/infurnia/auth_frontend/commit/aa36f772d774632d9e3dd47b866b3c4eb3d46062|aa36f77>)
+
+
